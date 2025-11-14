@@ -1,0 +1,25 @@
+# Ignore certificate output
+certs/output/
+
+# Ignore Terraform state files
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.backup
+infra/terraform/.terraform/
+
+# Ignore local kubeconfig overrides (if any)
+.kube/
+
+# Ignore logs or temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+*.swp
+*.swo
+.vscode/
+.idea/
