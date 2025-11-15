@@ -4,7 +4,7 @@ set -e
 CERT_DIR="./certs/output"
 mkdir -p "${CERT_DIR}"
 
-# Certificate details
+# Certificate files
 ROOT_CA="${CERT_DIR}/root-ca.crt"
 ROOT_KEY="${CERT_DIR}/root-ca.key"
 SERVER_CERT="${CERT_DIR}/server.crt"
